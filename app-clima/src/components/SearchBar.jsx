@@ -8,10 +8,10 @@ export default function SearchBar({onSearch}) {
       e.preventDefault();
       onSearch(city);
     }}>
-      <div class="input-group mb-3">
-          <input type="text" class="form-control" value={city}  onChange={e => setCity(e.target.value)} placeholder="Ciudad..." aria-label="Ciudad..." aria-describedby="basic-addon2"/>
-          <div class="input-group-append">
-              <button class="btn btn-outline-secondary" type="submit">Agregar</button>
+      <div className="input-group mb-3">
+          <input type="text" className="form-control" value={city}  onChange={e => setCity(e.target.value)} placeholder="Ciudad..." aria-label="Ciudad..." aria-describedby="basic-addon2"/>
+          <div className="input-group-append">
+              <button className="btn btn-outline-secondary" type="submit">Agregar</button>
           </div>
       </div>
       

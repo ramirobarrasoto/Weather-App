@@ -4,8 +4,11 @@ import './Cards.css';
 import Card from './Card.jsx';
 
 export default function Cards({cities, onClose, id}) {
+  
+  
+  
   return (
-    <div className='tarjetas'>
+    <div className='cards'>
       {cities.map(c => <Card
           id={c.id}
           key={c.id}
