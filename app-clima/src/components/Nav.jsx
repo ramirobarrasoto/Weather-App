@@ -22,7 +22,7 @@ function Nav({ onSearch }) {
           </span>
         </Link>
         <Link to="/about">
-          <span>About</span>
+          <span className="navbar-brand">About</span>
         </Link>
         <div className="hola">
           <SearchBar onSearch={onSearch} />

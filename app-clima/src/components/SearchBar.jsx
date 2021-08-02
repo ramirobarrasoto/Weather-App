@@ -7,11 +7,12 @@ export default function SearchBar({onSearch}) {
     <form className="holis" onSubmit={(e) => {
       e.preventDefault();
       onSearch(city);
+      setCity("")
     }}>
       <div className="input-group mb-3">
-          <input type="text" className="form-control" value={city}  onChange={e => setCity(e.target.value)} placeholder="Ciudad..." aria-label="Ciudad..." aria-describedby="basic-addon2"/>
+          <input type="text" className="form-control" value={city}  onChange={e => setCity(e.target.value)} placeholder="City..." aria-label="Ciudad..." aria-describedby="basic-addon2"/>
           <div className="input-group-append">
-              <button className="btn btn-outline-secondary" type="submit">Agregar</button>
+              <button className="btn btn-outline-secondary" type="submit">Add city</button>
           </div>
       </div>
       
