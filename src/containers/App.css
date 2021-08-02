@@ -1,7 +1,8 @@
 .App {
   text-align: center;
   background: url(https://i.postimg.cc/4xJhqT01/fondo.jpg);
-
+  background-attachment: fixed;
+  overflow: scroll;
   background-repeat: no-repeat;
   background-size:cover;
 
