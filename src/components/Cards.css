@@ -3,7 +3,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background: url(https://i.postimg.cc/4xJhqT01/fondo.jpg) no-repeat center center fixed;
+  background: no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -11,14 +11,15 @@
   margin-bottom: -10%;
 }
 }
-
+@media (min-width: 560px) {
+  .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+}
 
 hr{
   border-top: none!important;
 }
 
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
