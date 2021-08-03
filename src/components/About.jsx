@@ -8,10 +8,10 @@ export default function About() {
       
        <div className="card-body"> 
            <p className="card-title">This app was built by Sergio Sotelo.</p>
-        <p>See the repo <a href="https://github.com/SergioSotelo95/Weather-App">here</a> </p>
+        <p>See the repo <a href="https://github.com/SergioSotelo95/Weather-App" rel='noopener noreferrer' target = '_blank'>here</a> </p>
         <p>Follow me on social media!</p>
         <br />
-        <a href="https://github.com/SergioSotelo95" className="link">
+        <a href="https://github.com/SergioSotelo95" rel='noopener noreferrer' target = '_blank' className="link">
         <span>Github profile     </span>
         <img
               className='iconoClima'
@@ -23,7 +23,7 @@ export default function About() {
         </a>
         <br />
         <br />
-        <a href="https://www.linkedin.com/in/sergio-sotelo/" className="link">
+        <a href="https://www.linkedin.com/in/sergio-sotelo/" rel='noopener noreferrer' target = '_blank' className="link">
         <span>LinkedIn profile     </span>
         <img
               className='iconoClima'
@@ -36,9 +36,9 @@ export default function About() {
         <br />
         <br />
 
-        <p>You can check my resume <a href="https://drive.google.com/file/d/1c7QAi3kJC0gj0Lv40xOvbYmeJ30p8co3/view?usp=sharing">here</a> </p>
+        <p>You can check my resume <a href="https://drive.google.com/file/d/1c7QAi3kJC0gj0Lv40xOvbYmeJ30p8co3/view?usp=sharing" rel='noopener noreferrer' target = '_blank'>here</a> </p>
 
-        <h6>Special thanks to <a href="https://www.linkedin.com/in/lucila-rossi/" className="link">Lucila Rossi</a> for the background picture</h6>
+        <h6>Special thanks to <a href="https://www.linkedin.com/in/lucila-rossi/" rel='noopener noreferrer' target = '_blank' className="link">Lucila Rossi</a> for the background picture</h6>
        </div>
         </div> 
         </div>
