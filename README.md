@@ -1,6 +1,6 @@
 # Weather-App
 
-Welcome, folks! This was my first front end app using react and a API. 
+Welcome,  my first front end app using react and a API. 
 It was exciting back then to see something you coded <i>actually</i> work,
 And now I'm ready to show you all how this app works and how my first steps
 as a developer started.
